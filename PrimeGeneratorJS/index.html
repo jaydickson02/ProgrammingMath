@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script type="text/javascript" src="./primeGen.js"></script>
+  <title>Document</title>
+</head>
+<body style="overflow: hidden">
+<p id = "previousPrime" style="float:right; height:45vmax; overflow:scroll; margin-right: 50px; font-size:30px; border:black"> </p>
+<input type="hidden" id="currentPrime" value="3">
+<h1 id="primebox"></h1>
+<script type="text/javascript">
+  setInterval(nextPrime, 0.0000000000000000001);
+</script>
+</body>
+</html>
